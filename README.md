@@ -19,5 +19,5 @@ $ docker-compose up
 ## Info
 
 - Ruby: `2.6.3`
-- Rails: `5.2.3`
+- Rails: `6.0.0`
 - Base Image: `ruby:2.6.3-alpine3.10`
