@@ -1,7 +1,7 @@
-FROM ruby:2.6.5-alpine3.10
+FROM ruby:2.7.0-alpine3.11
 
 RUN apk update
-RUN apk add --no-cache build-base tzdata postgresql-dev postgresql-client
+RUN apk add --no-cache build-base tzdata postgresql-dev postgresql-client git
 
 ENV APP_PATH /usr/src/app
 
